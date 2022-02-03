@@ -1,0 +1,39 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .input-parent {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Location {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    background-color: red ;
+    height: 20px;
+    width: 10px;
+    border-radius: 50%;
+  }
+  
+  .input {
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: 1px solid gray !important;
+    background-color: #f6f8fc !important;
+    outline: none !important;
+  }
+  .button{
+    font-size:18px ;
+    color: white;
+    background-color:red;
+    height:50%;
+     width:100%;
+     margin-top:35px;
+    border:none;
+    
+    
+  }
